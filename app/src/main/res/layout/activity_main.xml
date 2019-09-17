@@ -1,0 +1,26 @@
+<LinearLayout android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Kết Quả"
+        android:layout_marginTop="15dp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:id="@+id/etResult"
+        android:text="Chưa có kết quả"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gởi giải phương trình bậc 2"
+        android:onClick="Open"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"/>
+</LinearLayout>
